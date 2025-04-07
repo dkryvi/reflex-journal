@@ -3,6 +3,7 @@ import { EnvVarWarning } from "@/components/env-var-warning";
 import HeaderAuth from "@/components/header-auth";
 import { ThemeSwitcher } from "@/components/theme-switcher";
 import { hasEnvVars } from "@/utils/supabase/check-env-vars";
+import { Analytics } from "@vercel/analytics/react";
 import { Geist } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import Link from "next/link";
@@ -67,6 +68,7 @@ export default function RootLayout({
                   </a>
                 </p>
                 <ThemeSwitcher />
+                <Analytics />
               </footer>
             </div>
           </main>
