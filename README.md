@@ -85,9 +85,6 @@ pnpm dev
 Required environment variables:
 
 ```bash
-# App
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-
 # Supabase
 SUPABASE_URL=your-supabase-url
 SUPABASE_ANON_KEY=your-supabase-anon-key
@@ -107,7 +104,3 @@ SENTRY_PROJECT=your-sentry-project
 - `pnpm format` - Format with Prettier
 - `pnpm type-check` - Run TypeScript compiler
 - `pnpm check` - Run all checks
-
-## License
-
-MIT License - see LICENSE for details
