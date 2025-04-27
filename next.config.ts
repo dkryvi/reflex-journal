@@ -15,4 +15,7 @@ export default withSentryConfig(nextConfig, {
   widenClientFileUpload: true,
   disableLogger: true,
   automaticVercelMonitors: true,
+  reactComponentAnnotation: {
+    enabled: true,
+  },
 });
